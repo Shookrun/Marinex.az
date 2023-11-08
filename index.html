@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="navLeft">
+          <div class="navLeftFirst">
+            <p>
+              <i class="fa-solid fa-location-dot" style="color: #f4bf01"></i>
+              Bakı şəh.Nərimanov r. Nazim Hacıyev küçəsi
+            </p>
+          </div>
+          <div class="navLeftSecond">
+            <i class="fa-solid fa-phone" style="color: #ffc800"></i> +994 51 440
+            01 40 +994 12 514 07 06
+          </div>
+        </div>
+        <div class="navRight">
+          <div class="navRightFirst">
+            <i class="fa-solid fa-paper-plane" style="color: #ffc800"></i>
+            <i class="fa-brands fa-facebook-f" style="color: #ffc800"></i>
+            <i class="fa-brands fa-instagram" style="color: #ffc800"></i>
+          </div>
+          <div class="navRightSecond">
+            <a class="navReg" href="#">Qeydiyyat</a>
+            <a class="navLog" href="#">Daxil Ol</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Section1 Start -->
+    <section class="Section1">
+      <div class="container">
+        <div class="Section1Bar">
+          <img src="./assets/images/Logo.png" alt="" />
+          <a href="#">Haqqımızda</a>
+          <a href="#">Tariflər</a>
+          <a href="#">Mağazalar</a>
+          <a href="#">Xəbərlər</a><a href="#">Xidmətlər</a>
+          <a href="#">Məntəqələr</a>
+          <a href="#">Daşınma Şərtləri</a>
+          <a href="#">Əlaqə</a>
+          <a class="orderBtn" href="#">Sifariş Et</a>
+        </div>
+        <div class="Section1First">
+          <div class="Section1FirstL">
+            <h2>Daşınma qiyməti necə hesablanır ?</h2>
+            <p class="altText">
+              Məhsulunuzu seçin,kalkulyator vasitəsi ilə daşıma qiymətini
+              hesablayın
+            </p>
+            <div class="cards">
+              <div class="card1">
+                <h6>
+                  En
+                  <div id="rangeBox" class="card1Val"></div>
+                  <span>sm</span>
+                </h6>
+                <input
+                  id="range"
+                  type="range"
+                  value="0.5"
+                  min="0"
+                  max="1000"
+                  step="0.5"
+                />
+              </div>
+              <div class="card1">
+                <h6>
+                  Hündürlük
+                  <div id="rangeBox2" class="card1Val"></div>
+                  <span>sm</span>
+                </h6>
+                <input
+                  id="range2"
+                  type="range"
+                  value="0.5"
+                  min="0"
+                  max="1000"
+                  step="0.5"
+                />
+              </div>
+              <div class="card1">
+                <h6>
+                  Çəki
+                  <div id="rangeBox3" class="card1Val"></div>
+
+                  <span>kg</span>
+                </h6>
+                <input
+                  id="range3"
+                  type="range"
+                  value="0.5"
+                  min="0"
+                  max="15"
+                  step="0.01"
+                />
+              </div>
+              <div id="result" class="cardValue"></div>
+            </div>
+          </div>
+          <div class="Section1FirstR">
+            <img src="./assets/images/Section1R.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section1 End -->
+    <!--Section2 Start -->
+    <section class="Section2">
+      <h2>Daşınma Qiyməti</h2>
+      <div class="container">
+        <div class="Section2Div">
+          <table>
+            <tr>
+              <th>Tariflər</th>
+            </tr>
+            <tr>
+              <td>0.00 kg - 0.10 kg</td>
+            </tr>
+            <tr>
+              <td>0.10 kg - 0.25 kg</td>
+            </tr>
+            <tr>
+              <td>0.25 kg - 0.50 kg</td>
+            </tr>
+            <tr>
+              <td>0.50 kg - 0.75 kg</td>
+            </tr>
+            <tr>
+              <td>0.75 kg - 1.00 kg</td>
+            </tr>
+            <tr>
+              <td>1.00 kg - 5.00 kg</td>
+            </tr>
+            <tr>
+              <td>5.00 kg - 10.00 kg</td>
+            </tr>
+            <tr>
+              <td>10.00 kg və üzəri</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th>Adi Məhsul</th>
+            </tr>
+            <tr>
+              <td>0.75 USD</td>
+            </tr>
+            <tr>
+              <td>1.00 USD</td>
+            </tr>
+            <tr>
+              <td>2.50 USD</td>
+            </tr>
+            <tr>
+              <td>3.50 USD</td>
+            </tr>
+            <tr>
+              <td>4.00 USD</td>
+            </tr>
+            <tr>
+              <td>kg / 4.00 USD</td>
+            </tr>
+            <tr>
+              <td>kg / 3.50 USD</td>
+            </tr>
+            <tr>
+              <td>kg / 3.00 USD</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th>Maye</th>
+            </tr>
+            <tr>
+              <td>0.75 USD</td>
+            </tr>
+            <tr>
+              <td>1.00 USD</td>
+            </tr>
+            <tr>
+              <td>2.50 USD</td>
+            </tr>
+            <tr>
+              <td>3.50 USD</td>
+            </tr>
+            <tr>
+              <td>4.00 USD</td>
+            </tr>
+            <tr>
+              <td>kg / 4.00 USD</td>
+            </tr>
+            <tr>
+              <td>kg / 3.50 USD</td>
+            </tr>
+            <tr>
+              <td>kg / 3.00 USD</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- Section2 End -->
+    <!-- Section3 Start -->
+    <section class="Section3">
+      <h2>Biz necə işləyirik ?</h2>
+      <div class="container">
+        <div class="cards2">
+          <div class="card2">
+            <img src="./assets/images/card2F.png" alt="" />
+            <p>Qeydiyyatdan Keçirsiz</p>
+          </div>
+          <div class="card2">
+            <img src="./assets/images/card2R.png" alt="" />
+            <p>Saytımıza daxil olaraq məhsulu sifariş edirsiniz</p>
+          </div>
+          <div class="card2">
+            <img src="./assets/images/card2E.png" alt="" />
+            <p>Ən qısa zamanda məhsulunuzu sizə çatdırırıq</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section3 End -->
+    <!-- Section4 Start -->
+    <section class="Section4">
+      <h2>Yeniliklərdən anında xəbərdar olun</h2>
+      <div class="container">
+        <div class="card1">
+          <img src="./assets/images/S4card1.png" alt="" />
+          <h3>Smart Customs-da bəyan et</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit...
+          </p>
+          <div class="card1Date">
+            <p>18 May</p>
+            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+          </div>
+        </div>
+        <div class="card1">
+          <img src="./assets/images/S4card1.png" alt="" />
+          <h3>Smart Customs-da bəyan et</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit...
+          </p>
+          <div class="card1Date">
+            <p>18 May</p>
+            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+          </div>
+        </div>
+        <div class="card1">
+          <img src="./assets/images/S4card1.png" alt="" />
+          <h3>Smart Customs-da bəyan et</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit...
+          </p>
+          <div class="card1Date">
+            <p>18 May</p>
+            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+          </div>
+        </div>
+        <div class="card1">
+          <img src="./assets/images/S4card1.png" alt="" />
+          <h3>Smart Customs-da bəyan et</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit...
+          </p>
+          <div class="card1Date">
+            <p>18 May</p>
+            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section4 End -->
+    <!-- Section5 Start -->
+    <section class="Section5">
+<div class="container">
+  <div class="Section5First">
+    <img src="./assets/images/1.png" alt="">
+    <img src="./assets/images/2.png" alt="">
+    <img src="./assets/images/3.png" alt="">
+    <img src="./assets/images/4.png" alt="">
+    <img src="./assets/images/5.png" alt="">
+    <img src="./assets/images/6.png" alt="">
+    <img src="./assets/images/7.png" alt="">
+  </div>
+  
+</div>
+    </section>
+    <!-- Section5 End -->
+    <!-- Footer Start -->
+    <footer>
+    <div class="Logo">
+      <img src="./assets/images/Logo.png" alt="">
+    </div>
+    <div class="List1">
+      <ul>
+        <li>Haqqımızda</li>
+        <li>Tariflər</li>
+        <li>Mağazalar</li>
+        <li>Xəbərlər</li>
+      </ul>
+    </div>
+    <div class="List1">
+      <ul>
+        <li>Xidmətlər</li>
+        <li>Məntəqələr</li>
+        <li>Daşınma Şərtləri</li>
+        <li>Əlaqə</li>
+      </ul>
+    </div>
+    <div class="List1">
+      <ul>
+        <li>Bakı şəh. Nərimanov r.Nazim Hacıyev küçəsi</li>
+        <li>+994 51 440 01 40</li>
+      </ul>
+    </div>
+    </footer>
+    <!-- Footer End -->
+    <script src="app.js"></script>
+  </body>
+</html>
