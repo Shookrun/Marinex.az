@@ -292,6 +292,14 @@ footer{
   background-image: url(../images/Section2Bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  justify-content: space-between;
+
+flex-direction: column;
+}
+footer .footerFirst{
+  display:flex;
+  justify-content: space-between;
+  padding:40px;
 }
 footer .List1{
   display: flex;
@@ -302,6 +310,41 @@ footer .List1{
   list-style: none;
   color:#005B7F;
 }
+.List1 ul a{
+  color:#005B7F;
+}
 .List1 ul li{
   padding:10px;
+}
+footer .List2{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.List2 ul{
+  list-style: none;
+  color:#005B7F;
+}
+.List2 ul li{
+  padding:10px;
+}
+.List2 ul li i{
+  font-size:20px;
+}
+
+footer .footerEnd{
+  display:flex;
+  border-top: 1px solid #FFAB21;
+  padding:30px;
+  justify-content: space-between;
+}
+footer .footerEnd .pDivs{
+  display:flex;
+  gap:10px;
+}
+footer .footerEnd p{
+  color:#005B7F;
+}
+footer .footerEnd .pDivs p{
+  color:gray;
 }
