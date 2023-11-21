@@ -1,322 +1,311 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  a{
-      text-decoration: none;
-      color:black;
-  }
-  body{
-    background-color: #ffffff;
-  }
-  .container {
-    max-width: 1481px;
-    width: 90%;
-    margin: 0 auto;
-  }
-  nav {
-    width: 100%;
-    background-color: white;
-    box-shadow: 1px 1px 20px 1px gray;
-  }
-  nav .container {
-    display: flex;
-  }
-  nav .navLeft {
-    display: flex;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: #ffffff;
+}
+.container {
+  max-width: 1481px;
+  width: 90%;
+  margin: 0 auto;
+}
+nav {
+  width: 100%;
+  background-color: white;
+  box-shadow: 1px 1px 20px 1px gray;
+}
+nav .container {
+  display: flex;
+}
+nav .navLeft {
+  display: flex;
   align-items: center;
-    width: 50%;
-    color: #088dc2;
-    font-size: 14px;
-   gap :20px;
-    padding: 10px;
-  }
-  nav .navLeftFirst {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #088dc2;
-  }
-  nav .navRight {
-    display: flex;
-    align-items: center;
-    width: 50%;
-    color: #088dc2;
-    font-size: 14px;
-    justify-content: flex-end;
-    padding: 10px;
-  }
-  nav .navRightFirst {
-    display: flex;
-    font-size: 18px;
-    gap: 20px;
-    align-items: center;
-  }
-  nav .navRightSecond a {
-    text-decoration: none;
-  }
-  .navReg {
-    color: #088dc2;
-  }
-  .navLog {
-    color: #FFAB21;
-  }
-  nav .navRightSecond {
-    display: flex;
-    gap: 10px;
-    margin-left: 20px;
-    align-items: center;
-  }
-  
-  .Section1{
-      display:flex;
-      background-color: #F4F5F7;
-      padding-top:20px;
-      padding-bottom:30px;
-  }
-  .Section1Bar{
-      display:flex;
-      align-items: center;
-      justify-content: space-between;
-  }
-  .Section1Bar .orderBtn{
-      background-color: #FFAB21;
-      border-radius: 12px;
-      padding:10px 80px;
-      color:white;
-  }
-  
-  .Section2{
-    display:flex;
-    background-color:green;
- width:100%;
- flex-direction: column;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top:20px;
-  
-  }
-  .Section2 .Section2First{
-    display:flex;
-    width: 50%;
-    background-color: red;
-  }
-  .Section2 .Section2Second{
-    display:flex;
-    width:49%;
-  }
-  .Section2 .Section2Header{
-    display:flex;
-    background-color: #fff;
-    width: 100%;
-   
-  }
-  .Section2 .Section2Header a{
-    color:gray;
-  }
-  .Section2 .Section2Header p span{
-    color:#005B7F;
-    border-left:2px solid #005B7F;
-    padding-left:10px;
-    margin-left:10px;
-  }
-  .Section2Div{
-    background-color: #fff;
-    width:100%;
-    display:flex;
-    padding-top:50px;
-  }
-  .Section2Div .Section2Left{
-    width: 50%;
-  }
-  .Section2Div .Section2Right{
-    width:49%;
-    display:flex;
-    flex-direction: column;
-    gap:10px;
-    
-    justify-content: space-around;
-  }
-  .Section2Div .Section2Right h2{
-    color:#005B7F;
-    font-size:35px;
-  }
-  .Section2Div .Section2Right p{
-    width:400px;
-  }
-  .Section2Right .Section2Inputs{
-    width: 100%;
-   gap:10px;
-    display: flex;
-  }
-  .Section2Right .Section2Inputs .Section2InputLeft{
-    display:flex;
+  width: 50%;
+  color: #088dc2;
+  font-size: 14px;
+  gap: 20px;
+  padding: 10px;
+}
+nav .navLeftFirst {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #088dc2;
+}
+nav .navRight {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  color: #088dc2;
+  font-size: 14px;
+  justify-content: flex-end;
+  padding: 10px;
+}
+nav .navRightFirst {
+  display: flex;
+  font-size: 18px;
+  gap: 20px;
+  align-items: center;
+}
+nav .navRightSecond a {
+  text-decoration: none;
+}
+.navReg {
+  color: #088dc2;
+}
+.navLog {
+  color: #ffab21;
+}
+nav .navRightSecond {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+  align-items: center;
+}
 
-    width:50%;
-    flex-direction: column;
-    gap:10px;
-  }
-  .Section2Right .Section2Inputs .Section2InputLeft select {
-    border-radius: 12px;
-   border:1px solid #005B7F;
-   padding:10px 5px;
-  }
-  .Section2Right .Section2Inputs .Section2InputLeft input {
-    border-radius: 12px;
-   border:1px solid #005B7F;
-   padding:10px 5px;
-  }
-  .Section2Right .Section2Inputs .Section2InputRight select {
-    border-radius: 12px;
-   border:1px solid #005B7F;
-   padding:10px 5px;
-  }
-  .Section2Right .Section2Inputs .Section2InputRight input {
-    border-radius: 12px;
-   border:1px solid #005B7F;
-   padding:10px 5px;
-  }
-  .Section2Right .Section2Inputs .Section2InputRight{
-    display:flex;
-    
-    width: 50%;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .Section2Button{
-    display:flex;
-    text-align: center;
-    background-color: #fff;
-    justify-content: center;
-  }
-  .Section2Button a{
-    background-color: #005B7F;
-    padding:15px;
-    width: 100%;
-    border-radius: 12px;
-    color:white;
-  }
-  .Section3{
-    display:flex;
-    flex-direction: column;
-   background-color: red;
-  }
-  .Section3Table{
-    background-color: #fff;
-    display:flex;
-    justify-content: space-around;
-    margin-bottom:60px;
-  }
-  
-  .Section3 .Section3Header{
-    display:flex;
-    background-color: aqua;
-   justify-content: center;
-   color:#005B7F;
-   font-size:20px;
-   position: relative;
-  }
-  .Section3 .Section3Header select{
-    border-radius: 12px;
-    border:1px solid #005B7F;
-   width:150px;
-    height: 35px;
-   position: absolute;
-   right:40px;
+.Section1 {
+  display: flex;
+  background-color: #f4f5f7;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.Section1Bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Section1Bar .orderBtn {
+  background-color: #ffab21;
+  border-radius: 12px;
+  padding: 10px 80px;
+  color: white;
+}
 
-  }
-  .Section3 .Section3TableFirst{
-    display:flex;
-  }
-  .Section4{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top:20px;
-    margin-bottom:40px;
-    background-color: #F4F5F7;
-  }
-  
-  .Section5{
-    padding-top:40px;
-    display:flex;
-  background-color: #fff;
-  margin-bottom:40px;
-  }
-  .Section5First{
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    width: 100%;
-    justify-content: space-between;
-    border-radius: 12px;
-    margin-bottom:20px;
-    height: 200px;
-    border:1px solid;
-  }
-  .Section5First img{
-    padding:50px 20px;
-  }
-  
-  footer{
-    display:flex;
-    background-color: #fff;
-    background-image: url(../images/Section2Bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: space-between;
-  
+.Section2 {
+  display: flex;
+  background-color: green;
+  width: 100%;
   flex-direction: column;
-  }
-  footer .footerFirst{
-    display:flex;
-    justify-content: space-between;
-    padding:40px;
-  }
-  footer .List1{
-    display: flex;
-    flex-direction: column;
-   
-  }
-  .List1 ul{
-    list-style: none;
-    color:#005B7F;
-  }
-  .List1 ul a{
-    color:#005B7F;
-  }
-  .List1 ul li{
-    padding:10px;
-  }
-  footer .List2{
-    display: flex;
-    flex-direction: column;
-   
-  }
-  .List2 ul{
-    list-style: none;
-    color:#005B7F;
-  }
-  .List2 ul li{
-    padding:10px;
-  }
-  .List2 ul li i{
-    font-size:20px;
-  }
-  
-  footer .footerEnd{
-    display:flex;
-    border-top: 1px solid #FFAB21;
-    padding:30px;
-    justify-content: space-between;
-  }
-  footer .footerEnd .pDivs{
-    display:flex;
-    gap:10px;
-  }
-  footer .footerEnd p{
-    color:#005B7F;
-  }
-  footer .footerEnd .pDivs p{
-    color:gray;
-  }
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.Section2 .Section2First {
+  display: flex;
+  width: 50%;
+  background-color: red;
+}
+.Section2 .Section2Second {
+  display: flex;
+  width: 49%;
+}
+.Section2 .Section2Header {
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+}
+.Section2 .Section2Header a {
+  color: gray;
+}
+.Section2 .Section2Header p span {
+  color: #005b7f;
+  border-left: 2px solid #005b7f;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+.Section2Div {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+}
+.Section2Div .Section2Left {
+  width: 50%;
+}
+.Section2Div .Section2Right {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  justify-content: space-around;
+}
+.Section2Div .Section2Right h2 {
+  color: #005b7f;
+  font-size: 35px;
+}
+.Section2Div .Section2Right p {
+  width: 400px;
+}
+.Section2Right .Section2Inputs {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+}
+.Section2Right .Section2Inputs .Section2InputLeft {
+  display: flex;
+
+  width: 50%;
+  flex-direction: column;
+  gap: 10px;
+}
+.Section2Right .Section2Inputs .Section2InputLeft select {
+  border-radius: 12px;
+  border: 1px solid #005b7f;
+  padding: 10px 5px;
+}
+.Section2Right .Section2Inputs .Section2InputLeft input {
+  border-radius: 12px;
+  border: 1px solid #005b7f;
+  padding: 10px 5px;
+}
+.Section2Right .Section2Inputs .Section2InputRight select {
+  border-radius: 12px;
+  border: 1px solid #005b7f;
+  padding: 10px 5px;
+}
+.Section2Right .Section2Inputs .Section2InputRight input {
+  border-radius: 12px;
+  border: 1px solid #005b7f;
+  padding: 10px 5px;
+}
+.Section2Right .Section2Inputs .Section2InputRight {
+  display: flex;
+
+  width: 50%;
+  flex-direction: column;
+  gap: 10px;
+}
+.Section2Button {
+  display: flex;
+  text-align: center;
+  background-color: #fff;
+  justify-content: center;
+}
+.Section2Button a {
+  background-color: #005b7f;
+  padding: 15px;
+  width: 100%;
+  border-radius: 12px;
+  color: white;
+}
+
+.Section3 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+background-color: #fff;
+  font-size:13px;
+  margin-bottom: 80px;
+}
+.Section3 .Section3Header {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.Section3 .headTag {
+  display: flex;
+  width: 50%;
+  color: #005b7f;
+  font-size: 18px;
+  justify-content: flex-end;
+}
+.Section3 .option .container {
+  display: flex;
+  width: 50%;
+
+  justify-content: flex-end;
+}
+.Section3 .Section3First .container {
+  display: flex;
+  justify-content: space-around;
+gap:30px;
+  padding-left: 14%;
+}
+.Section3 .Section3Second .secondHeader {
+  display: flex;
+  justify-content: flex-start;
+  color:#005b7f;
+  width: 10%;
+}
+.Section3 .Section3Second .container {
+  display: flex;
+  margin-top:10px;
+  justify-content: space-between;
+  align-items: center;
+ border:1px solid aquamarine;
+ padding:10px;
+ border-radius: 12px;
+  gap: 20px;
+  background-color: #fff;
+  box-shadow: 3px 3px 5px #aaaaaa;
+}
+footer {
+  margin-top: 30px;
+  display: flex;
+  background-color: #fff;
+  background-image: url(../images/Section2Bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-between;
+
+  flex-direction: column;
+}
+footer .footerFirst {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+footer .List1 {
+  display: flex;
+  flex-direction: column;
+}
+.List1 ul {
+  list-style: none;
+  color: #005b7f;
+}
+.List1 ul a {
+  color: #005b7f;
+}
+.List1 ul li {
+  padding: 10px;
+}
+footer .List2 {
+  display: flex;
+  flex-direction: column;
+}
+.List2 ul {
+  list-style: none;
+  color: #005b7f;
+}
+.List2 ul li {
+  padding: 10px;
+}
+.List2 ul li i {
+  font-size: 20px;
+}
+
+footer .footerEnd {
+  display: flex;
+  border-top: 1px solid #ffab21;
+  padding: 30px;
+  justify-content: space-between;
+}
+footer .footerEnd .pDivs {
+  display: flex;
+  gap: 10px;
+}
+footer .footerEnd p {
+  color: #005b7f;
+}
+footer .footerEnd .pDivs p {
+  color: gray;
+}
